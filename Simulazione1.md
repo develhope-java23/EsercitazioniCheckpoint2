@@ -19,7 +19,9 @@ where it is considered necessary.
   
 Each edible or drinkable should modify the hunger and thirst attributes of the Person object.
 Note: consider you can both drink yogurt or eat it with a spoon.
+
 6. Implement a method haveLunch(...) in Person, which takes a Collection of Eatable objects and a Collection of Drinkable objects as parameters. The method calls eat() and drink() passing as parameters every Eatable and Drinkable object in the collections, respectively.
+
 7. Implement a main method where:
 - A Person object is allocated.
 - An HashSet of 3 Eatables is allocated. One of them should be poisoned.
