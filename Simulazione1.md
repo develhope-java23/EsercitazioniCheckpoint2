@@ -11,20 +11,15 @@ where it is considered necessary.
 - isPoisoned(): boolean
 3. Declare an interface Drinkable with the following methods:
 - onDrink(Person person): void
-4. Implement two methods eat(Eatable) and drink(Drinkable) on Person. Each of them
-modifies the hunger and thirst values, respectively, by calling the method of the
-interface. If an Eatable is poisoned, then an exception is thrown.
+4. Implement two methods eat(Eatable) and drink(Drinkable) on Person. Each of them modifies the hunger and thirst values, respectively, by calling the method of the interface. If an Eatable is poisoned, then an exception is thrown.
 5. Declare the following classes representing food, implementing the correct interfaces:
 - Apple
 - Cola
 - Yogurt
-Each edible or drinkable should modify the hunger and thirst attributes of the Person
-object.
+  
+Each edible or drinkable should modify the hunger and thirst attributes of the Person object.
 Note: consider you can both drink yogurt or eat it with a spoon.
-6. Implement a method haveLunch(...) in Person, which takes a Collection of Eatable
-objects and a Collection of Drinkable objects as parameters. The method calls eat()
-and drink() passing as parameters every Eatable and Drinkable object in the
-collections, respectively.
+6. Implement a method haveLunch(...) in Person, which takes a Collection of Eatable objects and a Collection of Drinkable objects as parameters. The method calls eat() and drink() passing as parameters every Eatable and Drinkable object in the collections, respectively.
 7. Implement a main method where:
 - A Person object is allocated.
 - An HashSet of 3 Eatables is allocated. One of them should be poisoned.
