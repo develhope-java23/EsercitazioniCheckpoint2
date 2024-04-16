@@ -19,7 +19,7 @@ It is possible to implement constructors, setter, getters or any other additiona
   - Recharges the car via the method recharge, passing the value of capacity as parameter
  
 3. Implement a main method where:
-- An HashSet of 3 electric cars is initialized
+- A LinkedList of 3 electric cars is initialized
 - 3 ArrayLists of batteries are initialized, one for each car
 - A loop is executed where, for each interation i and each car c:
   - If i % 5 == 0, then the car c is recharged by the first battery available in its list, which is then removed. If no batteries are available for that car, nothing is done.
