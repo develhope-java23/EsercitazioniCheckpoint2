@@ -7,7 +7,7 @@ It is possible to implement constructors, setter, getters or any other additiona
 2. Declare a class Cutlery with the following attributes and methods:
 - dirtiness: int
 - onUse(Eatable): void
-- Increases dirtiness based on the return value of getGreasiness of the parameter.
+  - Increases dirtiness based on the return value of getGreasiness of the parameter.
 3. Declare a class Person with the following attributes and methods:
 - hunger: int
 - eat(Eatable, Cutlery):
