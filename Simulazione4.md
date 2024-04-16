@@ -6,7 +6,7 @@ It is possible to implement constructors, setter, getters or any other additiona
 - isDirty(): boolean
 2. Declare a class Dishwasher with the following attributes and methods
 - capacity: int
-- loadedObjects: List<Washable>
+- loadedObjects: List\<Washable\>
 - load(Washable): void
   - Adds the Washable object to loadedObjects.
   - Launches an exception if the length of loadedObjects is equal to capacity.
