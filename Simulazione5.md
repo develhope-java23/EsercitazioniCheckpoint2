@@ -10,7 +10,7 @@ It is possible to implement constructors, setter, getters or any other additiona
   - Adds the Fuel object to fuels.
 - turnOn(): List<Integer>
   - Launches an exception if the list fuels is empty
-  - Adds the return value of getEnergy() of every item in fuels, then empties fuels and returns a List of integers containing the energy values of every fuel object that was present in the list.
+  - Adds the return value of getEnergy() of every item in fuels to energy, then empties fuels and returns a List of integers containing the energy values of every fuel object that was present in the list.
 3. Declare the following classes representing fuels:
 - Diesel
   - getEnergy() returns 20
