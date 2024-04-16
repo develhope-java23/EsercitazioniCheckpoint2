@@ -1,4 +1,4 @@
-# Java 15 - Checkpoint #2
+# Java 23 - Checkpoint #2
 ## Java Advanced
 It is possible to implement constructors, setter, getters or any other additional method where it is considered necessary.
 1. Declare an interface Fuel with the following methods:
