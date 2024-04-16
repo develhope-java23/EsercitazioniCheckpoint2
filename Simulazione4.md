@@ -40,7 +40,7 @@ Author(
 
 Post(
   id VARCHAR(255) PRIMARY KEY,
-  authorName VARCHAR(64),
+  authorName VARCHAR(64) FOREIGN KEY REFERENCES Author(username),
   likes VARCHAR(64),
   shares INTEGER,
 )
