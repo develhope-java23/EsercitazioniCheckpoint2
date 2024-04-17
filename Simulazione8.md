@@ -8,8 +8,7 @@ It is possible to implement constructors, setter, getters or any other additiona
 - capacity: int
 - loadedObjects: List\<Washable\>
 - load(Washable): void
-  - Adds the Washable object to loadedObjects.
-  - Launches an exception if the length of loadedObjects is equal to capacity.
+  - Launches an exception if the length of loadedObjects is equal to capacity, adds the Washable object to loadedObjects otherwise.
 - launchWash(): boolean
   - Calls wash() on every item in loadedObjects, then empties loadedObjects. Returns true if and only if all elements were cleaned.
 3. Declare the following classes representing washables:
