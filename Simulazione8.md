@@ -31,8 +31,7 @@ Given the following table:
 ```
 Author(
   username VARCHAR(64) PRIMARY KEY,
-  fullName VARCHAR(64),
-  shares INTEGER,
+  fullName VARCHAR(64)
 )
 
 Post(
@@ -45,6 +44,6 @@ Post(
 
 Write the following queries:
 1. Insert a Post entry with random values.
-2. Report the count of posts for each author present in the table.
-3. Select all users which posts have gained more than 50 likes in total.
+2. Report the count of posts with at least one like for each author present in the table.
+3. Select all users which posts have gained more than 50 shares in total.
 4. Select all authors without any shares.
