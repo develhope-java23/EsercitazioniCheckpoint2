@@ -24,7 +24,7 @@ It is possible to implement constructors, setter, getters or any other additiona
 - A LinkedList of 3 electric bikes is initialized
 - Attach 2 or 3 batteries to each bike.
 - A loop is executed where, for each interation i and each car c:
-  - If i % 20 == 0, then the bike is recharged.
+  - If i % 20 == 0, then the bike is recharged. If an exception is thrown during recharge, catch it and print its message to the screen.
   - The bike moves
   - The bike accelerates
   - If position is a multiple of 100, then add a new Battery with capacity position / 5 to the bike.
