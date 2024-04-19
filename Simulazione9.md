@@ -10,7 +10,7 @@ It is possible to implement constructors, setter, getters or any other additiona
 - speed: int
 - batteries: List\<Battery\>
 - position: int
-  - All variables are initialized to 0
+  - All integer variables are initialized to 0, while "batteries" is initialized as an empty list.
 - attach(Battery)
   - Add the battery to the list "batteries".
 - recharge()
