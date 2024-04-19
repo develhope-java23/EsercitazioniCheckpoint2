@@ -4,17 +4,17 @@ It is possible to implement constructors, setter, getters or any other additiona
 1. Declare a class Battery with the following variables and methods:
 - capacity: int
   - Capacity must be positive, throw an exception instead
-- apply(ElectricBike):
-  - Recharges the car via the method recharge, passing the value of capacity as parameter
-  - 
+ 
 2. Declare a class ElectricBike with the following variables and methods:
 - energy: int
 - speed: int
-- 
+- batteries: List<Battery>
 - position: int
   - All variables are initialized to 0
-- recharge(int value)
-  - Increases the energy by "value". If value is <= 0, throw an exception
+- attach(Battery)
+  - Add the battery to the list "batteries".
+- recharge()
+  - Increases the energy by the sum of the batteries capacities. If no batteries are present, throw an exception.
 - accelerate()
   - Increases the speed by energy * 0.2, then decreases energy by the same value
 - move()
