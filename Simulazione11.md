@@ -17,7 +17,7 @@ It is possible to implement constructors, setter, getters or any other additiona
 - recharge()
   - Increases the energy by the sum of the batteries capacities, then empties the batteries list. If no batteries are present, throw an exception.
 - accelerate()
-  - Increases the speed by energy * 0.1, then decreases energy by the same value
+  - Increases the speed by energy * 0.1, then decreases energy by the same value. If speed is greater than maxSpeed, cap its value to maxSpeed.
 - move()
   - Increases position by speed * 0.6, then decreases speed by the same value
   
