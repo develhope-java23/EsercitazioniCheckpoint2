@@ -11,7 +11,7 @@ It is possible to implement constructors, setter, getters or any other additiona
 - maxSpeed: int
 - batteries: Set\<Battery\>
 - position: int
-- All integer variables are initialized to 0, while "batteries" is initialized as an empty list.
+- All integer variables are initialized to 0, while "batteries" is initialized as an empty list and "maxSpeed" is given to the constructor as parameter.
 - insert(Battery)
   - Add the battery to the list "batteries".
 - recharge()
