@@ -5,8 +5,9 @@ It is possible to implement constructors, setter, getters or any other additiona
 - getEnergy(): int
 2. Declare a class Engine with the following attributes and methods
 - energy: int
+  - Initialized at 0
 - fuels: List<Fuel>
-  - Initialzied as an empty List
+  - Initialized as an empty List
 - insert(Fuel): void
   - Adds the Fuel object to fuels.
 - turnOn(): int
